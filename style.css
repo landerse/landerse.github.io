@@ -1,10 +1,24 @@
+@media screen and (max-width: 250px) {
+  body h1 {
+    font-size: 80%;
+  }
+}
+
 #allchars {
 	display: block;
+	width: 100%;
 	margin:auto;
 }
-#offensechars {
+#offensechars, td {
 	margin: auto;
+	padding: 10px;
+	border: solid 1px;
+	font-weight:bold;
 
+}
+body.offensebody {
+	background-image: url("http://i.imgur.com/co6CHi7.jpg");
+	background-attachment: fixed;
 }
 ul {
 	list-style: none;
@@ -13,4 +27,14 @@ ul {
 }
 body {
 	text-align: center;
+}
+li.unfinished:hover{
+	color: red;
+
+}
+a:visited {
+	color: #A3BD3C;
+}
+h1 {
+	font-family: Helvetica;
 }
