@@ -1,3 +1,16 @@
+#allchars {
+	display: block;
+	margin:auto;
+}
+#offensechars {
+	margin: auto;
+
+}
+ul {
+	list-style: none;
+	display: block;
+	
+}
 body {
-	background-color: blue;
+	text-align: center;
 }
